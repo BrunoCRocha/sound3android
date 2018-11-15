@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sound3</string>
+    <string name="travis_scott">Travis Scott</string>
+    <string name="astroworld">Astroworld</string>
+    <string name="_15">15€</string>
+    <string name="m_sicas">Músicas</string>
+    <string name="musicas">Musicas</string>
+    <string name="ano">Ano:</string>
+    <string name="author">Author:</string>
+    <string name="serie">Serie</string>
+    <string name="titulo">Titulo:</string>
+</resources>

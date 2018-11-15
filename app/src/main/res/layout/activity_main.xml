@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    >
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sound3"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="50sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <EditText
+        android:id="@+id/eT_email"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:drawableStart="@drawable/email"
+        android:ems="10"
+        android:hint="Email"
+        android:paddingLeft="7dp"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="15dp"
+        android:textColorHint="#FFFF"
+        app:backgroundTint="#FFFF"
+        android:textColor="#FFFF"
+        />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/eT_Paswword"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="7dp"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        app:backgroundTint="#FFFF"
+         />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/btn_LogIn"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_forms"
+        android:text="Log In"
+        android:textColor="#FFFF"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_miniRegistar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:onClick="registar"
+        android:text="Registar"
+        android:textColor="#ffff" />
+</LinearLayout>
